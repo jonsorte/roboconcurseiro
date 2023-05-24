@@ -28,7 +28,7 @@ function sendMessage(){
         //loading button
         setTimeout(() =>{
             //envia msg como bot
-            appendMessage('bot', 'This Source Coded By @thcards');
+            appendMessage('bot', 'Eu Sou o Robô Concurseiro ;) "This Source was Coded By @thcards"');
             buttonIcon.classList.add('ri-send-plane-fill');
             buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
         },2000);
@@ -75,7 +75,7 @@ userInput.value = '';
             buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
     }).catch((err) => {
         if (err.name === 'TypeError'){
-            appendMessage('bot', 'Error: Confira a chave de API');
+            appendMessage('bot', 'Error999: Não estou conseguindo me comunicar com a minha memória');
             buttonIcon.classList.add('fa-solid', 'fa-paper-plane');
             buttonIcon.classList.remove('fas', 'fa-spinner', 'fa-pulse');
         }
